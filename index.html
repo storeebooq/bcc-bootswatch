@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <link rel="icon" href="media/music-note-list.svg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+       
+        <!-- regular boostratp 5.3 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+                -->
+        <!-- BOOTSWATCH cdn quartz theme, local, overrides bootstrap -->  
+       <link href="css/bootstrap.css" rel="stylesheet" type="text/css" /> 
+       <!-- boostrap icons 5.3-->
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <!-- core css stylings to override bootstrap-->
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-primary bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="bi bi-music-note-list px-2"></i>SF Classical Music</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header - set the background image for the header in the line below-->
+    <header class="py-5 bg-image-full" style="background-image: url(media/front3-min.jpg)" alt="audience view of orchestra"> <!--1600x900-->
+        <div class="text-center my-5">
+            <img class="img-fluid rounded-circle mb-4" src="media/violin150.jpg" alt="violin" />
+            <h1 class="text-white fs-3 fw-bolder">San Francisco Classical Orchestra</h1>
+            <p class="text-white-50 mb-0">Classical music for the community</p>
+        </div>
+    </header>
+    <!-- Content section-->
+    <section class="py-5">
+        <div class="container my-2">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <h2>All About SF Classical Orchestra</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias rerum iure necessitatibus dolorum molestias deleniti.</p>
+                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis doloremque accusamus minus iste adipisci consequatur, ratione et odit quidem cupiditate laborum ipsum praesentium architecto. Natus, aliquid sint? Rerum, iste tenetur?</p>
+                    <a href="about.html"><button type="button" class="btn btn-primary px-2 my-2">Learn More</button></a>
+                    <a href="contact.html"><button type="button" class="btn btn-outline-primary px-2 mx-2">Contact Us</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Image element - set the background image for the header in the line below-->
+    <div class="container py-5 bg-image-full" style="background-image: url(media/front1-min2.jpg)">
+        <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
+        <div class="row justify-content-center text-center px-5">
+            <div class="col-lg-4">
+                <div class="card border-primary mb-3" style="max-width: 20rem;">
+                    <div class="card-header">Community</div>
+                    <div class="card-body">
+                    <h4 class="card-title">In your Neighborhood</h4>
+                    <p class="card-text text-black">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, culpa!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card border-primary mb-3" style="max-width: 20rem;">
+                    <div class="card-header">Music</div>
+                    <div class="card-body">
+                    <h4 class="card-title">Full Orchestra</h4>
+                    <p class="card-text text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ex modi dolorum maxime magnam ratione.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card border-primary mb-3" style="max-width: 20rem;">
+                    <div class="card-header">Performances</div>
+                    <div class="card-body">
+                    <h4 class="card-title">Lots of Events</h4>
+                    <p class="card-text text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sapiente culpa nesciunt.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Content section-->
+    <section class="py-5">
+        <div class="container my-2">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <h2>We are dedicated to our music community</h2>
+                    <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id nobis aut provident! Obcaecati, voluptatem dolores.</p>
+                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tempore magni dolorem rem inventore quo quas dicta aut consectetur aliquid ipsa qui minus molestiae, ratione, debitis omnis, soluta autem quae.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Storee Moss 2024</p></div>
+    </footer>
+    
+
+     
+    <!-- bootstrap javascript, 5.3-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
